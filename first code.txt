@@ -1,0 +1,34 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+ public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name = scanner.nextLine();
+        System.out.println("Hello," + name+ "!");
+        
+        System.out.println("Enter your age");
+        Integer age = scanner.nextInt();
+        System.out.println("My age is," + age+ "!");
+        
+        
+        System.out.println("Enter your mark");
+        Double mark = scanner.nextDouble();
+        System.out.println("My mark is," + mark+ "!");
+        System.out.println("\n");
+         System.out.println("Hello," + name+ "!");
+         System.out.println("My age is," + age+ "!");
+        if (age > 18) {
+             System.out.println("you are adult");
+        } else {
+        System.out.println("you  are chiled");
+        }
+        
+        
+        
+        System.out.println("My mark is," + mark+ "!");
+         
+    scanner.close();        
+    }
+}
